@@ -1,0 +1,247 @@
+body,ul,li,p,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-weight: normal;
+}
+.header{
+	width: 100%;
+	height: 40px;
+	background: #444;
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background: #333;
+}
+.nav-dom{
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+}
+.nav-dom li{
+	float: left;
+	color: #fff;
+}
+.nav-dom li:hover{
+	color: #ccc;
+}
+.nav-li{
+	margin-left: 86px;
+}
+.nav-dom li a{
+	height: 44px;
+	line-height: 44px;
+	text-decoration: none;
+	text-align:center;
+	color: #fff;
+}
+.nav-dom li a:hover{
+	color: #ccc;
+}
+.apple{
+	background-repeat: no-repeat;
+    background-size: 20px 44px;
+    background-image: url("1.jpg");
+    background-position: center center;
+    width: 20px;
+    display: block;
+    margin: auto;
+}
+.nav-centent li a span{
+	background: green;
+	background-repeat: no-repeat;
+    background-size: 20px 44px;
+    background-image: url("../1.jpg");
+    background-position: center center;
+    width: 20px;
+    display: block;
+    height: 44px;
+}
+.suo{
+	background: green;
+	background-repeat: no-repeat;
+    background-size: 28px 44px;
+    background-image: url("../2.jpg");
+    background-position: center center;
+    width: 20px;
+    display: block;
+    height: 44px;
+}
+.suo1{
+	background: green;
+	background-repeat: no-repeat;
+    background-size: 28px 44px;
+    background-image: url("../3.jpg");
+    background-position: center center;
+    width: 20px;
+    display: block;
+    height: 44px;
+    margin: auto;
+}
+.center-content{
+	width: 100%;
+	margin-top: 40px;
+}
+.center-content h1{
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+}
+.center-content h2{
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+}
+.box{
+	width: 100%;
+	margin-top: 45px;
+}
+.imgbox{
+	width: 100%;
+	position: relative;
+}
+.imgbox a{
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.imgbox a img{
+	width: 100%;
+}
+/*.nav-centent li:nth-child(9){
+	width: 45px;
+}*/
+.nav-centent li:nth-child(1){
+      display: none;
+      text-align: center;
+      line-height: 44px;
+      height: 44px;
+ }
+ .changping{
+ 	width: 100%;
+ 	height: 200px;
+ 	margin: auto;
+ 	margin-top: 480px;
+ }
+ .changping div img{
+ 	width: 100%;
+ 	height: 100%;
+ }
+.col-s-1{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background: red;
+}
+*{
+	box-sizing:border-box;
+}
+.col-s-2{
+	border-right: 1px solid #fff;
+}
+ @media screen and (max-width: 750px){
+    .nav-centent{
+      width: 750px;
+    }
+    .nav-centent li:nth-child(1){
+      display: block;
+      width: 250px;
+    }
+    .nav-centent li:nth-child(2){
+    	width: 250px;
+    }
+    .nav-centent li:nth-child(3){
+    	display: none;
+    }
+    .nav-centent li:nth-child(4){
+    	display: none;
+    }
+    .nav-centent li:nth-child(5){
+    	display: none;
+    }
+    .nav-centent li:nth-child(6){
+    	display: none;
+    }
+    .nav-centent li:nth-child(7){
+    	display: none;
+    }
+    .nav-centent li:nth-child(8){
+    	display: none;
+    }
+    .nav-centent li:nth-child(9){
+    	display: none;
+    }
+    .nav-centent li:nth-child(10){
+    	width: 250px;
+    	margin-left: 0px;
+    }
+    .changping{
+    	width: 750px;
+    	height: 400px;
+    }
+    .col-s-1{
+	float: left;
+	width: 50%;
+	height: 50%;
+	background: red;
+	}
+	.col-s-3{
+	border-bottom: 1px solid #fff;
+	}
+ }
+@media screen and (max-width: 600px){
+    .nav-centent{
+      width: 600px;
+    }
+    .nav-centent li:nth-child(1){
+      display: block;
+      width: 200px;
+    }
+    .nav-centent li:nth-child(2){
+    	width: 200px;
+    }
+    .nav-centent li:nth-child(3){
+    	display: none;
+    }
+    .nav-centent li:nth-child(4){
+    	display: none;
+    }
+    .nav-centent li:nth-child(5){
+    	display: none;
+    }
+    .nav-centent li:nth-child(6){
+    	display: none;
+    }
+    .nav-centent li:nth-child(7){
+    	display: none;
+    }
+    .nav-centent li:nth-child(8){
+    	display: none;
+    }
+    .nav-centent li:nth-child(9){
+    	display: none;
+    }
+    .nav-centent li:nth-child(10){
+    	width: 200px;
+    	margin-left: 0px;
+    }
+    .changping{
+    	width: 600px;
+    	height: 800px;
+    	margin-top: 224px;
+    }
+    .col-s-1{
+	float: left;
+	width: 100%;
+	height: 25%;
+	background: red;
+	}
+	.col-s-3{
+    border-right: 0px;		
+	border-bottom: 1px solid #fff;
+	}
+}
